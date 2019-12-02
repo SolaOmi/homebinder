@@ -3,10 +3,10 @@ import React, { Component } from "react";
 class Login extends Component {
   render() {
     return (
-      <form>
-        <input type="text" name="email" placeholder="Email Address"/>
-        <input type="text" name="password" placeholder="Password"/>
-        <input type="submit" value="Login" />
+      <form className="login text-center">
+        <input className="text-input" type="text" name="email" placeholder="Email"/>
+        <input className="text-input" type="text" name="password" placeholder="Password"/>
+        <input className="submit" type="submit" value="Login" />
       </form>
     );
   }

@@ -12,18 +12,19 @@ class Main extends Component {
   render() {
     return (
       <HashRouter>
-        <div>
-          <ul className="header">
-            <li><NavLink to="/">Login</NavLink></li>
-            <li><NavLink to="/signup">Signup</NavLink></li>
-            <li><NavLink to="/reset">Reset</NavLink></li>
-          </ul>
+        <main>
+          <h1 className="text-center">HomeBinder</h1>
           <div className="content">
             <Route exact path="/" component={Login}/>
             <Route path="/signup" component={Signup}/>
             <Route path="/reset" component={Reset}/>
           </div>
-        </div>
+          <ul className="footer">
+            <li>New to HomeBinder? <NavLink to="/signup">Sign Up</NavLink></li>
+            <li>Already have an account?<NavLink to="/">Log In</NavLink></li>
+            <li>Forgot Password?<NavLink to="/reset">Reset</NavLink></li>
+          </ul>
+        </main>
       </HashRouter>
     );
   }
