@@ -94,8 +94,6 @@ h1 {
   text-decoration: underline;
 }
 
-
-
 @media (min-width: 600px) {
   main {
     width: 400px;
