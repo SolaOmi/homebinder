@@ -13,16 +13,15 @@ class Main extends Component {
     return (
       <HashRouter>
         <main>
-          <h1 className="text-center">HomeBinder</h1>
+          <h1 className="text-center">Log In</h1>
           <div className="content">
             <Route exact path="/" component={Login}/>
             <Route path="/signup" component={Signup}/>
             <Route path="/reset" component={Reset}/>
           </div>
           <ul className="footer">
-            <li>New to HomeBinder? <NavLink to="/signup">Sign Up</NavLink></li>
-            <li>Already have an account?<NavLink to="/">Log In</NavLink></li>
-            <li>Forgot Password?<NavLink to="/reset">Reset</NavLink></li>
+            <li>New to HomeBinder? <NavLink to="">Sign Up</NavLink></li>
+            <li>Forgot Password?<NavLink to="">Reset</NavLink></li>
           </ul>
         </main>
       </HashRouter>
