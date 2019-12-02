@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/homebinder/static/css/main.fd51e75a.chunk.css",
+    "main.js": "/homebinder/static/js/main.d7f3e32a.chunk.js",
+    "main.js.map": "/homebinder/static/js/main.d7f3e32a.chunk.js.map",
+    "runtime-main.js": "/homebinder/static/js/runtime-main.7b5a4e5d.js",
+    "runtime-main.js.map": "/homebinder/static/js/runtime-main.7b5a4e5d.js.map",
+    "static/js/2.036ee634.chunk.js": "/homebinder/static/js/2.036ee634.chunk.js",
+    "static/js/2.036ee634.chunk.js.map": "/homebinder/static/js/2.036ee634.chunk.js.map",
+    "index.html": "/homebinder/index.html",
+    "precache-manifest.9d4abe9c3f7f6c4b7c4367918100b9ab.js": "/homebinder/precache-manifest.9d4abe9c3f7f6c4b7c4367918100b9ab.js",
+    "service-worker.js": "/homebinder/service-worker.js",
+    "static/css/main.fd51e75a.chunk.css.map": "/homebinder/static/css/main.fd51e75a.chunk.css.map",
+    "static/media/index.css": "/homebinder/static/media/red.152965c6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b5a4e5d.js",
+    "static/js/2.036ee634.chunk.js",
+    "static/css/main.fd51e75a.chunk.css",
+    "static/js/main.d7f3e32a.chunk.js"
+  ]
+}
